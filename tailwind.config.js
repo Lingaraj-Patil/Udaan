@@ -1,0 +1,88 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#f3e5f5',
+          100: '#e1bee7',
+          200: '#ce93d8',
+          300: '#ba68c8',
+          400: '#ab47bc',
+          500: '#9c27b0',
+          600: '#8e24aa',
+          700: '#7b1fa2',
+          800: '#6a1b9a',
+          900: '#4a148c',
+          950: '#3a1070',
+        },
+        secondary: {
+          50: '#e0f2f1',
+          100: '#b2dfdb',
+          200: '#80cbc4',
+          300: '#4db6ac',
+          400: '#26a69a',
+          500: '#009688',
+          600: '#00897b',
+          700: '#00796b',
+          800: '#00695c',
+          900: '#004d40',
+          950: '#003a31',
+        },
+        accent: {
+          50: '#fbe9e7',
+          100: '#ffccbc',
+          200: '#ffab91',
+          300: '#ff8a65',
+          400: '#ff7043',
+          500: '#ff5722',
+          600: '#f4511e',
+          700: '#e64a19',
+          800: '#d84315',
+          900: '#bf360c',
+          950: '#9f2c09',
+        },
+        success: {
+          50: '#e8f5e9',
+          100: '#c8e6c9',
+          500: '#4caf50',
+          600: '#43a047',
+          700: '#388e3c',
+        },
+        warning: {
+          50: '#fffde7',
+          100: '#fff9c4',
+          500: '#ffeb3b',
+          600: '#fdd835',
+          700: '#fbc02d',
+        },
+        error: {
+          50: '#ffebee',
+          100: '#ffcdd2',
+          500: '#f44336',
+          600: '#e53935',
+          700: '#d32f2f',
+        },
+      },
+      fontFamily: {
+        sans: ['Open Sans', 'sans-serif'],
+        heading: ['Montserrat', 'sans-serif'],
+      },
+      spacing: {
+        '72': '18rem',
+        '84': '21rem',
+        '96': '24rem',
+      },
+      borderRadius: {
+        'xl': '1rem',
+        '2xl': '1.5rem',
+      },
+      boxShadow: {
+        'card': '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+        'card-hover': '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+      },
+    },
+  },
+  plugins: [],
+};
