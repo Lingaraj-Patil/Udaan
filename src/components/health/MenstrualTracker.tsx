@@ -216,10 +216,10 @@ export const MenstrualTracker: React.FC<MenstrualTrackerProps> = ({ cycles = [] 
                 <div className="bg-accent-50 rounded-lg p-4">
                   <div className="flex items-center mb-2">
                     <Heart size={18} className="text-accent-500 mr-2" />
-                    <h4 className="font-medium text-gray-800">Fertile Window</h4>
+                    <h4 className="font-medium text-gray-800">Study-Friendly Focus Days</h4>
                   </div>
                   <p className="text-accent-700 font-bold text-lg">{format(fertileWindow.start, 'MMM d')} - {format(fertileWindow.end, 'MMM d')}</p>
-                  <p className="text-sm text-gray-600">For family planning</p>
+                  <p className="text-sm text-gray-600">Plan for light academic activities or breaks during these days if you experience hormonal fluctuations affecting focus or energy.</p>
                 </div>
                 
                 <div className="bg-secondary-50 rounded-lg p-4">
@@ -228,7 +228,7 @@ export const MenstrualTracker: React.FC<MenstrualTrackerProps> = ({ cycles = [] 
                     <h4 className="font-medium text-gray-800">Current Phase</h4>
                   </div>
                   <p className="text-secondary-700 font-bold text-lg">{getCurrentPhase()}</p>
-                  <p className="text-sm text-gray-600">Understanding your body</p>
+                  <p className="text-sm text-gray-600">Energy levels may be lower; focus on reviewing notes and lighter study topics. Prioritize rest if needed.</p>
                 </div>
               </div>
               
